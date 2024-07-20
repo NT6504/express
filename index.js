@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 
 app.get('/get-users', (req, res) => {
   //  fetching users
-  const users = [{ id: 1, name: 'John Doe' }, { id: 2, name: 'Jane Smith' }];
+  const users = [{ id: 1, name: 'sunil' }, { id: 2, name: 'sanjeev' }];
   res.json(users);
 });
 
